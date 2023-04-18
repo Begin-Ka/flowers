@@ -1,0 +1,56 @@
+/*admin.php - admin.html*/
+.table {
+    display: flex;    
+    justify-content: center;
+}
+.table-wrapper {
+    display: flex; 
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    height: auto; 
+    padding: 40px 20px; 
+    margin: 20px auto;  
+    background-color: rgb(177, 176, 176);
+
+}
+.table-title {
+    width: 100%;
+    max-width: 460px;
+    font-size: 26px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: rgb(24, 122, 146);
+    margin: 15px auto;
+    text-align: center;
+}
+.table-content {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+form .login-form {
+    width: 100%;
+    max-width: 290px;
+    margin: 0 auto;
+}
+form input {
+    width: 100%;
+    max-width: 290px;
+    height: 30px;
+    margin: 10px auto;
+}
+.button {
+    width: 100%;
+    max-width: 300px;
+    background-color: rgb(8, 121, 136);
+    color: white;
+    transition: all .2s linear;
+}
+.button:hover {
+    background-color: rgb(95, 179, 190);
+
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="admin/content.css">
+
+    <title>Админпанель</title>
+</head>
+<body>
+    <div class="admin">        
+        <form action="newart.php" method="post"class="admin-inner">
+            <div class= "head-name">Админпанель</div>
+            <div class="sections">
+                <div class="menu-block">
+                    <h1 class="head-menu">МЕНЮ</h1>
+                    <ul>
+                        <li><a href="" class="name-menu">Блок сайта 1</a>
+                            <div class="admin-block">
+                                <h2 class="name-block">Блок сайта "1"</h2>
+                                <p>Добавить название статьи:</p>
+                                <input name="nameart">
+                                <p>Текст статьи:</p>
+                                <textarea name="text"></textarea>
+                                <p>Текст ссылки в меню:</p>
+                                <input name="menu">
+                                <input type="submit" value="Добавить статью" class="button">                
+                            </div>
+                        </li>
+                        <li><a href="" class="name-menu">Блок сайта 2</a></li>
+                        <li><a href="" class="name-menu">Блок сайта 3</a></li>
+                        <li><a href="" class="name-menu">Блок сайта 4</a></li>
+                        <li><a href="" class="name-menu">Блок сайта 5</a></li> 
+                    </ul>
+                </div>
+                <div class="admin-block">
+                    <h2 class="name-block">Блок сайта "1"</h2>
+                    <p>Добавить название статьи:</p>
+                    <input name="nameart">
+                    <p>Текст статьи:</p>
+                    <textarea name="text"></textarea>
+                    <p>Текст ссылки в меню:</p>
+                    <input name="menu">
+                    <input type="submit" value="Добавить статью" class="button">                
+                </div>
+            </div>
+        </form>        
+    </div>    
+    
+</body>
+</html>

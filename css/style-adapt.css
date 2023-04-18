@@ -1,0 +1,140 @@
+@media (max-width:1280px){
+
+
+}
+
+@media (max-width:1024px){
+    
+}
+
+@media (max-width:768px){
+    .header{
+        width: 100%;
+        max-width: 768px;
+    }
+    .header-nav {
+        display: none;
+    }
+    .inner-image {
+        width: 100%;
+        max-width: 810px;
+    }
+    .partfolio-block1 {       
+        width:100%;
+        max-width: 400px;
+        height: auto;
+    }
+    .partfolio-block2{
+        width: 100%;
+        max-width: 400px;
+    }
+    .partfolio-title {
+        font-size: 26px;
+    }
+    .partfolio-text {
+        font-size: 14px;
+    }
+
+    .catalog-cart{
+        width: 100%;
+        max-width: 350px;
+    }
+    .block-contacts1{
+        width: 100%;
+        max-width: 400px;
+    }
+    .block-contacts2{
+        width: 100%;
+        max-width: 400px;
+    }
+    .dostavka-title {
+        font-size: 28px;
+    }
+    .dostavka-text{
+        font-size: 18px;
+
+    }
+    .footer-nav{
+        display: none;
+    }
+        
+    
+}
+
+@media (max-width:600px){
+    .header{
+        width: 100%;
+        max-width: 600px;
+    }
+    .inner-content{
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+    }
+    .inner-text{
+        width: 100%;
+        max-width: 280px;
+        font-size: 28px;
+    }
+    
+}
+
+@media (max-width:455px){
+    .header{
+        width: 100%;
+        max-width: 455px;
+    }
+    .main-letter {
+        width: 100%;
+        max-width: 455px;
+        margin: auto;
+    }
+    .cart-photo{
+        width: 250px;
+        height: auto;
+    }
+    .cart-content {
+        width: 250px;
+        height: auto;
+    }
+    .letter {
+        width: 100%;
+        max-width: 270px;
+        padding: 5px;
+    } 
+    .letter input {
+        width: 270px;
+    }
+    input.massage {
+        width: 270px;
+    }
+    input.letter-btn {
+        width: 270px;
+    }
+    .block-contacts1{
+        max-width: 250px;
+        height: 250px;
+    }
+    .map {
+        width: 250px;
+        height: auto;
+    }
+    .block-contacts2{
+        max-width: 250px;
+        height: auto;
+    }
+    .contacts-content {
+        height: 250px;
+    }
+    .contacts-title{
+        font-size: 14px;
+    }
+    .contacts-text{
+        font-size: 12px;
+
+    }
+
+        
+
+    
+}
